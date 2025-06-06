@@ -1,4 +1,5 @@
 import os
+import time
 
 def print_important_env_vars():
     important_vars = [
@@ -20,3 +21,5 @@ def print_important_env_vars():
 
 if __name__ == "__main__":
     print_important_env_vars()
+    while True:
+        time.sleep(60)
